@@ -24,7 +24,7 @@ export default function App() {
             <span className='text-lg lg:text-2xl font-bold text-purple-700'>SendPay</span>
           </div>
           {/* menu */}
-          <div className={'hidden lg:flex lg:items-center md:items-center flex-col absolute right-10 top-24 lg:flex-row lg:top-0 lg:relative' && (menu) ? " flex" : " hidden"}>
+          <div className={`flex lg:items-center md:items-center flex-col absolute right-10 top-24 lg:flex-row lg:top-0 lg:relative ${(menu) ? ' flex ' : ' hidden'} `}>
             <ul className='flex flex-col md:items-center space-y-2 mx-auto lg:space-x-8 lg:space-y-0 lg:flex-row lg:items-center'>
               <li className='text-gray-700 dark:text-gray-200 font-semibold hover:text-purple-600 transition-all duration-300 cursor-pointer hover:scale-105'>send money</li>
               <li className='text-gray-700 dark:text-gray-200 font-semibold hover:text-purple-600 transition-all duration-300 cursor-pointer hover:scale-105'>receive money</li>
