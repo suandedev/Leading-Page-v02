@@ -20,7 +20,7 @@ export default function App() {
       <div className='pt-10 lg:px-36 px-10 flex items-center justify-between relative'>
           {/* logo */}
           <div className='flex flex-col lg:flex-row lg:justify-start lg:items-center lg:space-x-2 transition-all hover:cursor-pointer hover:animate-bounce duration-400'>
-            <img className='w-14' src={"../public/emojione_e-mail.png"} alt="logo" />
+            <img className='w-14' src={"/static/images/emojione_e-mail.png"} alt="logo" />
             <span className='text-lg lg:text-2xl font-bold text-purple-700'>SendPay</span>
           </div>
           {/* menu */}
@@ -48,7 +48,7 @@ export default function App() {
             <button className='px-6 py-2 rounded-lg w-fit mx-auto bg-purple-700 lg:mx-0 lg:px-4 lg:py-3 text-gray-100 border border-purple-700 hover:scale-105 transition-all duration-300 hover:text-gray-700'>Learn More</button>
           </div>
         </section>
-        <img className='object-cover lg:w-full w-[20rem] block mx-auto' src={"../public/undraw_Mobile_application_mr4r 1.png"} alt="phone" />
+        <img className='object-cover lg:w-full w-[20rem] block mx-auto' src={"/static/images/undraw_Mobile_application_mr4r 1.png"} alt="phone" />
       </div>
     </div>
   );
